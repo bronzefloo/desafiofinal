@@ -1,0 +1,93 @@
+.Sectioninicio{
+    height: 75vh;
+    background-image: url(../../assets/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+    h2 {
+    color: white; 
+    font-size: 30px;
+    width: 35%;
+    }
+
+}
+.PorquedoarSection{
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2{
+        width: 90%;
+        font-size: 40px;
+        color: #005695;
+
+    }
+}
+
+.Cardmotivos {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+
+    section{
+        background-color: #0157944D;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        
+        p {
+            font-size: 20px;
+            text-align: center;
+            width: 80%;
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+.Sectioninicio {
+    height: 40vh;
+    padding-left: 10px;
+    text-align: center;
+  
+    h2 {
+    font-size: 19px; 
+    width: 90%; 
+    margin: 0 auto;
+    }
+}
+  
+.PorquedoarSection {
+    height: auto;
+    padding: 20px;
+  
+    h2 {
+    font-size: 32px; 
+    text-align: center;
+    }
+}
+  
+.Cardmotivos {
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px; 
+    height: auto;
+  
+    section {
+    width: 80%;
+    padding: 15px; 
+        
+    p {
+    font-size: 18px; 
+    }
+      }
+    }
+  }

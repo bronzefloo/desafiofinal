@@ -1,0 +1,124 @@
+.header {
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .logoHeader {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+  
+    img {
+      width: 20%;
+    }
+  
+    h1 {
+      font-size: 21px;
+      color: #fff;
+    }
+  }
+  
+  .navHeader {
+    width: 31%;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+  
+    .link {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+  
+  .barradepesquisa {
+    border: solid #fff;
+    border-radius: 10px;
+    margin-right: 1%;
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    input {
+      background-color: transparent;
+      border: none;
+      width: 60%;
+      height: 5vh;
+  
+      &::placeholder {
+        color: #fff;
+        font-size: 14px;
+      }
+    }
+  
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  //* responsividade 
+@media (max-width: 768px) {
+
+.header {
+  display: flex;
+  height: 20vh; 
+  justify-content: space-evenly;
+  flex-direction: column;
+    }
+  
+.logoHeader {
+  width: 40%;
+  justify-content: space-evenly;
+
+  img {
+  width: 15%;
+}
+  
+  h1 {
+  font-size: 18px;
+  margin-left: 20px;
+}
+   }
+  
+.navHeader {
+  width: 45%;
+
+
+ul {
+  font-size: 20px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+  
+.link {
+  font-size: 18px;
+  padding: 11px;
+
+ }
+  }
+  
+.barradepesquisa {
+  width: 70%; 
+  margin: 0;
+  height: 5vh;
+  
+  input {
+  width: 70%;
+  font-size: 12px;
+      }
+  
+  button img {
+   width: 20px; 
+    }
+    }
+  }

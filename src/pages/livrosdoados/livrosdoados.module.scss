@@ -1,0 +1,41 @@
+.SectionLivrosDoados{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    h2{
+        font-size: 24px;
+        text-align: center;
+    }
+}
+.Livros{
+    border: solid #006595;
+    border-radius: 20px;
+    height: 30vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 16px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+.SectionLivrosDoados{
+    display: flex;
+    align-items: center;
+}
+.Livros {
+    height: 20vh; 
+    width: 40%; 
+    display: flex;
+    p {
+        font-size: 12px;
+    }
+}
+}
