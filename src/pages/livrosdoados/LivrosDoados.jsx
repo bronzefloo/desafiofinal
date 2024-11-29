@@ -5,11 +5,13 @@ export default function LivrosDoados(){
         <section className={s.SectionLivrosDoados}>
             <h2>Livros Doados</h2>
             <div className={s.Livros}>
-                <section className={s.SegundaSection}>
+                <section>
                     <img src={livrodoado} alt="Imagem de capa do livro 'O protagonista" />
-                    <p>O Protagonista</p>
+                    <div>
+                    <h3>O Protagonista</h3>
                     <p>Susanne Andrade</p>
                     <p>Ficção</p>
+                    </div>
 
                 </section>
             </div>
