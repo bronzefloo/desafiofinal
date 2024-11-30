@@ -66,9 +66,8 @@
       cursor: pointer;
     }
   }
-  //* responsividade 
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
 .header {
   display: flex;
   height: 20vh; 
@@ -88,11 +87,10 @@
   font-size: 18px;
   margin-left: 20px;
 }
-   }
+}
   
 .navHeader {
   width: 45%;
-
 
 ul {
   font-size: 20px;
@@ -115,10 +113,10 @@ ul {
   input {
   width: 70%;
   font-size: 12px;
-      }
-  
+}
+
   button img {
-   width: 20px; 
+  width: 20px; 
     }
-    }
+  }
   }
