@@ -4,8 +4,6 @@ import youtube from '../../assets/youtube.png'
 import linkedin from '../../assets/linkedin.png'
 import instagram from '../../assets/instagram.png'
 import s from './footer.module.scss'
-
-
 export default function Footer() {
     return (
         <footer>
