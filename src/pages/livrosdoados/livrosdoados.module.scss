@@ -27,8 +27,7 @@
     }
 }
 
-
- @media (max-width: 768px) {
+ @media (max-width: 780px) {
 
 .SectionLivrosDoados {
     display: flex;
@@ -41,9 +40,9 @@
     align-items: center;
     width: 40%;
 
-    }
-.Livros section {
+    section {
     width: 90%; 
+}
 }
 }
     
