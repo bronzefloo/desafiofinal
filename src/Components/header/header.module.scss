@@ -70,14 +70,14 @@
 @media (max-width: 780px) {
 .header {
   display: flex;
-  height: 20vh; 
+  height: 30vh; 
   justify-content: space-evenly;
   flex-direction: column;
     }
   
 .logoHeader {
-  width: 40%;
-  justify-content: space-evenly;
+  width: 80%;
+  justify-content: space-around;
 
   img {
   width: 15%;
@@ -90,7 +90,9 @@
 }
   
 .navHeader {
-  width: 50%;
+  width: 90%;
+  text-align: center;
+  justify-content: space-around;
 
 ul {
   font-size: 30px;
