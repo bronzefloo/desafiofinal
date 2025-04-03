@@ -37,7 +37,7 @@ export default function QueroDoar(){
 
     return(
         <section className={s.queroDoarSection}>
-            <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
+            <p>Por favor, preencha o formulário com as informações do livro</p>
             <form onSubmit={(e)=>e.preventDefault()}>
                 <div>
                     <img src={livroaberto} alt="ícone de um livro aberto" />

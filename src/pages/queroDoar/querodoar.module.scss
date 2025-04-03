@@ -4,8 +4,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #d9e7f1;
     p{
         font-size: 20px;
+
     }
 }
 form{
@@ -17,6 +19,7 @@ form{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #fff;
 
     div{
         display: flex;
@@ -24,6 +27,7 @@ form{
         justify-content:space-evenly;
         align-items: center;
         color: #005695;
+        
     }
     input{
         width: 80%;
@@ -31,6 +35,8 @@ form{
         border: solid #005695;
         border-radius: 15px;
         padding-left: 20px;
+        font-size: 12px;
+        color: #000;
         &::placeholder{
             color: #000;
         }
@@ -42,45 +48,28 @@ form{
     font-size: 24px;
     background-color: #005695;
     color: #fff;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
+    transition: 0.2s;
+    &:hover{
+        background-color: #006595;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
+    .queroDoarSection{
+        height: 100vh;
+        justify-content: space-evenly;
 
-.queroDoarSection {
-    height: 80vh;
-    padding: 20px;
-  
-    p {
-    font-size: 18px; 
-    }
-    }
-  
-form {
-    height: 70vh; 
-    width: 70%;
-    padding: 20px;
-    gap: 20px; 
-  
-    div {
-    flex-direction: column;
-    gap: 10px;
-  
-    img {
-    width: 50px;
+        p{
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
         }
-      }
-  
-    input {
+    }
+    form {
         width: 90%;
-        height: 5vh;
-        font-size: 16px;
-      }
+        font-size: 15px;
     }
-  
-    .buttonDoar {
-      width: 80%;
-      height: 7vh;
-      font-size: 20px;
-    }
-  }
+}

@@ -14,7 +14,7 @@ export default function Header(){
         <img src={logolivro} 
         alt="Imagem de um livro aberto"
         />
-         <h1>LIVROS VAI NA WEB</h1>
+        <h1>LIVROS VAI NA WEB</h1>
         </section>
         <nav className= {s.navHeader}>
             <ul>
@@ -50,7 +50,7 @@ export default function Header(){
         <Route path="/" element= {<Inicio />} />
         <Route path="/livrosdoados" element= {<LivrosDoados />} />
         <Route path="/querodoar" element= {<QueroDoar />} />
-      </Routes>
+    </Routes>
         </BrowserRouter>
     );
 }
