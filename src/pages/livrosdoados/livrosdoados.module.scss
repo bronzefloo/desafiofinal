@@ -5,8 +5,8 @@
     justify-content: space-evenly;
     height: 80vh;
     padding: 2rem;
-    overflow: hidden;
-    
+    overflow: hidden; //serve para esconder o scroll
+    background-color: #f0f8ff;
 }
 
 .SectionLivrosDoados h2 {
@@ -46,7 +46,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1rem 0;
+    margin: 15px;
     padding: 1rem;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
@@ -54,45 +54,38 @@
 
 .Livros section:hover {
     transform: scale(1.05);
+}
 
-    img {
+.Livros section img {
     width: 60%;
 }
 
-    h3 {
+.Livros section h3 {
     font-size: 16px;
     text-align: center;
+    margin: 1rem;
 }
-    p {
+
+.Livros section p {
     font-size: 12px;
     text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 @media (max-width: 780px) {
-    .SectionLivrosDoados {
+    .SectionLivrosDoados{
         height: 80vh;
-        justify-content: space-around;
+        margin-bottom: 30px;
+        padding: 0;
     }
-
-    .Livros {
-        width: 90%;
-        max-height: 50vh;
-    }
-
     .Livros section {
-        width: 80%;
-        height: 40vh;
+        width: 90%;
+        height: 50vh;
+        p{
+            font-size: 16px;
+        }
     }
 }
-    .Livros section img {
-        width: 50%;
-    }
-
-    .Livros section h3 {
-        font-size: 14px;
-    }
-
-    .Livros section p {
-        font-size: 10px;
-    }
